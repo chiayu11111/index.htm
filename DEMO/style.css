@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* 通用設定 */
+* {box-sizing: border-box;}
+body, h1, h2, h3, h4,p {
+    margin: 0;
+}
+a {
+text-decoration: none;
+}
+img {
+    width: 100%;
+}
+body {
+   color: #697a61;
+   font-family: "Roboto", sans-serif;
+   background-image:url(image/BG.svg);
+   background-color: hsl(72, 100%, 98%);
+}
+.wrap-header{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 5px 0 rgba(85, 107, 47, 0.3);
+    position: sticky;
+    top: 0;
+}
+.wrap-content {
+    width: 1024px;
+    margin: 0 auto;
+}
+/* Header 頁首設定 */
+header {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+}
+
+header .LOGO{
+     background-image: url(image/LOGO.svg);
+    background-repeat: no-repeat;
+    margin-right: auto;
+    margin-top: 3px;
+}
+header .LOGO a {
+    display: block;
+    width: 143px; height: 32px;
+     text-indent: -9999px;
+     overflow: hidden;
+}
+
+header ul {
+    margin: 0; padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+header ul a {
+    color: #C3E245;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px 22px;
+    display: block;
+    background-color: rgb(241, 255, 228);
+}
+header ul a:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: #e3f794;
+}
+header button {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: auto;
+    border: 0;
+    border-radius: 40px;
+    padding: 10px 22px;
+    background-color: #C3E245;
+    cursor: pointer;
+}
+/* Main 主視覺設定 */
+main {
+    text-align: center;
+    color: white;
+    width: 100%;height: 354px;
+    padding-top: 150px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 16px;
+    background-image: url(image/main-image.jpg);
+    box-shadow: 0 0 5px 0 rgba(49, 61, 27, 0.4);
+}
+main h1 {
+font-size: 85px;
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+text-shadow: 0 0 8px rgba(96, 111, 83, 0.7);
+}
+main h3 {
+font-size: 32px;
+text-shadow: 0 0 8px rgba(96, 111, 83, 0.7);
+}
+/* Card 小卡設定 */
+section {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+.card {
+    color: #697a61;
+    width: 244px;
+    background-color: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 rgba(85, 107, 47, 0.3);
+}
+.card-content {
+    padding: 16px 22px;
+}
+.card-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: unset;
+    font-size: 23px;
+    margin-bottom: 16px;
+}
+card-intro {
+    font-weight: 300;
+    line-height: 150%;
+}
+/* Footer頁尾設定 */
+footer {
+    color: #606f53;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+footer a:hover {
+    color: #606f53;
+}
